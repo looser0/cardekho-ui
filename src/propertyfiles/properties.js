@@ -14,6 +14,10 @@ export const properties = {
     forgot:"Forgot",
     enter_email:"Enter email",
     enter_password:"Enter password",
-    already_registered:"Already registered"
+    already_registered:"Already registered",
+    invalid_username_or_password:"Invalid username or password",
+    login_success:"Login successfully"
+
+
     
 };

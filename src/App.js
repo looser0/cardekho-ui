@@ -5,7 +5,11 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Login from "./components/login.component";
 import SignUp from "./components/signup.component";
 import { properties } from './propertyfiles/properties';
+import axios from 'axios';
+import { useEffect } from 'react/cjs/react.development';
+
 const App = () => {
+  
   return (<Router>
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">

@@ -1,7 +1,7 @@
 export const properties = {
     app_name:"CarDekho",
 
-
+    email:"Email",
     login:"Login",
     signup:"SignUp",
     signin:"SignIn",
